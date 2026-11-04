@@ -1,0 +1,28 @@
+# ---- Data ----
+data/raw/
+data/clean/
+
+# ---- Tableau working files ----
+tableau/backups/
+tableau/extracts/
+*.hyper
+*.twbr
+*.twbx
+
+# Docs kept local only (README stays)
+*.md
+!README.md
+
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+*.log
